@@ -24,7 +24,12 @@ My "aha" moment would be at step 5 of my investigation journey. Throughout quest
 
 ---
 
-## Investigation 2: [Your Second Topic]
+## Investigation 2: 
+```c
+packet->stratum = 0;  // Client doesn't know its stratum
+// Server responds with its stratum (1-4 typically)
+```
+Even after reading the readme.md description I didn't fully understand the strata -- what it's used for and why we needed to set it to 0 ourselves. 
 
 ### Implementation Context
 [What you coded and what puzzled you]
