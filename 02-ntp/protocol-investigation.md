@@ -1,6 +1,6 @@
 # NTP Protocol Design Investigation
 
-## Investigation 1: [Topic You Chose]
+## Investigation 1: [Topic 4: NTP Epoch (1900 vs 1970)]
 
 ### Implementation Context
 ```c
@@ -24,7 +24,7 @@ My "aha" moment would be at step 5 of my investigation journey. Throughout quest
 
 ---
 
-## Investigation 2: 
+## Investigation 2: [Topic 6: Stratum Hierarchy]
 ```c
 packet->stratum = 0;  // Client doesn't know its stratum
 // Server responds with its stratum (1-4 typically)
